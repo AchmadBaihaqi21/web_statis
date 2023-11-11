@@ -8,6 +8,8 @@ body {
   background-image: url(image/concert.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  padding-top: 50px;
 }
 
 html {
@@ -22,6 +24,12 @@ nav {
   padding: 0 40px;
   height: 60px;
   font-family: "Kenia", sans-serif;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .menu-list {
@@ -137,6 +145,7 @@ nav .navbar img {
   border-radius: 25px;
   margin-top: 15px;
   margin-right: 50px;
+  margin-bottom: 15px;
 }
 .text-history p {
   width: 55%;
@@ -147,6 +156,87 @@ nav .navbar img {
   color: white;
   font-family: "Kenia", sans-serif;
 }
+/* end profile and history*/
+
+/* start konten */
+/* start konten 1 */
+.wrap-konten {
+  background-color: rgb(75, 74, 74);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.wrap-konten #gambar-konten1 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+.wrap-konten .text-konten1 p {
+  width: 50%;
+  text-indent: 10px;
+  margin-left: 100px;
+  padding-bottom: 15px;
+  text-align: start;
+  font-size: 21px;
+  color: white;
+  font-family: "Kenia", sans-serif;
+}
+.wrap-konten .text-konten1 p a {
+  color: black;
+}
+/* end konten 1 */
+/* start konten 2 */
+.wrap-konten #gambar-konten2 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.wrap-konten .text-konten2 p {
+  width: 60%;
+  text-indent: 10px;
+  margin-left: 50px;
+  padding-bottom: 15px;
+  text-align: start;
+  font-size: 21px;
+  color: white;
+  font-family: "Kenia", sans-serif;
+}
+.wrap-konten .text-konten2 p a {
+  color: black;
+}
+/* end konten 2 */
+/* start konten 3 */
+.wrap-konten #gambar-konten3 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.wrap-konten .text-konten3 p {
+  width: 60%;
+  text-indent: 10px;
+  margin-left: 50px;
+  padding-bottom: 15px;
+  text-align: start;
+  font-size: 21px;
+  color: white;
+  font-family: "Kenia", sans-serif;
+}
+.wrap-konten .text-konten3 p a {
+  color: black;
+}
+/* end konten 3 */
+/* end konten */
 
 /* responsive tablet and phone start */
 
