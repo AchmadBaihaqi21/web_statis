@@ -1,16 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
 }
+body {
+  background-image: url(image/concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 /* navbar start */
 nav {
   display: flex;
-  background-color: #789;
+  background-color: rgb(41, 40, 40);
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
   height: 60px;
+  font-family: "Kenia", sans-serif;
 }
 
 .menu-list {
@@ -29,22 +40,24 @@ nav {
 .menu-list li:hover {
   background-color: white;
   border-radius: 50px;
+  padding-top: 2px;
 }
 
 .menu-list li a:hover {
   color: red;
 }
 
-
 nav .menu-list .dropdown {
   display: none;
 }
 nav ul li:hover .dropdown {
   display: block;
-  background-color: #789;
+  background-color: rgb(41, 40, 40);
+  border-radius: 15px;
   list-style: none;
   position: absolute;
   margin-top: 10px;
+  padding-top: 10px;
   height: 50px;
 }
 nav .navbar img {
@@ -54,6 +67,87 @@ nav .navbar img {
 }
 /* navbar end */
 
+/* hamburger menu start*/
+.menu-icon {
+  color: rgb(255, 255, 255);
+  margin-right: 25px;
+  font-size: 30px;
+  display: none;
+}
+/* hamburger menu end*/
 
+/* start main */
 
+/* start intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+.intro h2 {
+  color: rgb(107, 20, 20);
+  font-weight: 900;
+  font-size: 300px;
+  font-family: "Kenia", sans-serif;
+}
+.intro p {
+  color: rgb(107, 20, 20);
+  font-weight: 900;
+  font-size: 60px;
+  font-family: "Kenia", sans-serif;
+  margin-bottom: 90px;
+}
+/* end intro */
 
+/* start profile and history */
+.wrap {
+  background-color: rgb(41, 40, 40);
+  display: flex;
+  justify-content: space-between;
+}
+.wrap #gambar1 img {
+  width: 250px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.text-profile p {
+  width: 55%;
+  text-indent: 30px;
+  margin: 50px 0 0 200px;
+  font-size: 21px;
+  color: white;
+  font-family: "Kenia", sans-serif;
+}
+
+.wrap2 {
+  background-color: rgb(41, 40, 40);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.wrap2 #gambar2 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.text-history p {
+  width: 55%;
+  text-indent: 30px;
+  margin: 50px 0 0 260px;
+  text-align: start;
+  font-size: 21px;
+  color: white;
+  font-family: "Kenia", sans-serif;
+}
+
+/* responsive tablet and phone start */
+
+/* responsive tablet and phone end */
