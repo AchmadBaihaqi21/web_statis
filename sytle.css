@@ -35,6 +35,7 @@ nav {
   color: red;
 }
 
+
 nav .menu-list .dropdown {
   display: none;
 }
@@ -53,16 +54,6 @@ nav .navbar img {
 }
 /* navbar end */
 
-/* hamburger menu start*/
 
-.menu-icon {
-  color: rgb(255, 255, 255);
-  margin-right: 25px;
-  font-size: 30px;
-  display: none;
-}
-/* hamburger menu end*/
 
-/* responsive tablet and phone start */
 
-/* responsive tablet and phone end */
