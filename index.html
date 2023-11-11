@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="sytle.css" />
     <link rel="shortcut icon" href="image/logo.jpeg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>RBPedia</title>
   </head>
   <body>
     <header>
-      <!--navbar start-->
+      <!-- navbar start -->
       <nav>
         <div class="navbar">
           <img src="image/logo.jpeg" alt="logorb" />
         </div>
+        <div id="menu-icon" class="menu-icon">
+          <i class="ph ph-list"></i>
+        </div>
         <ul id="menu-list" class="menu-list">
           <li><a href="#">Home</a></li>
           <li>
-            <a href="#">About</a>
+            <a href="#gambar1">About</a>
             <ul id="dropdown" class="dropdown">
-              <li><a href="#">Profile</a></li>
-              <li><a href="#">History</a></li>
+              <li><a href="#gambar1">Profile</a></li>
+              <li><a href="#gambar2">History</a></li>
             </ul>
           </li>
           <li><a href="#">Event</a></li>
@@ -28,8 +34,55 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <!--navbar end-->
+      <!-- navbar end -->
     </header>
+    <main>
+      <!-- intro start -->
+      <div id="intro" class="intro">
+        <h2>RB PEDIA</h2>
+        <p>Liberte, Egalite, Fraternite.</p>
+      </div>
+      <!-- intro end -->
+      <!-- profile and history start -->
+      <div class="wrap" id="wrap">
+        <div id="gambar1" id="gambar1">
+          <img src="image/logo.jpeg" alt="logo rb" />
+        </div>
+        <div id="text-profile" class="text-profile">
+          <p>
+            RBPedia merupakan destinasi utama bagi para pecinta musik yang ingin
+            menjelajahi dunia musik dengan cara yang baru dan mendalam. Kami
+            didedikasikan untuk menyediakan pengalaman memberikan infomasi event
+            musik yang tak tertandingi, menghadirkan berbagai event musik dari
+            seluruh penjuru dunia.Misi kami di RB Pedia adalah menciptakan
+            komunitas musik yang dinamis dan beragam. Kami berkomitmen untuk
+            menghubungkan para penggemar musik dengan artis, band, dan genre
+            yang mereka cintai. Kami percaya bahwa musik memiliki kekuatan untuk
+            menyatukan orang, dan kami ingin menjadi wadah di mana para pecinta
+            musik dapat bersatu.
+          </p>
+        </div>
+      </div>
+      <div id="wrap2" class="wrap2">
+        <div id="text-history" class="text-history">
+          <p>
+            Sejarah terbentuknya RBPedia merupakan sebuah keisengan sekumpulan
+            remaja yang bernama RB Famiglia yang sudah ada 13 tahun yang lalu di
+            daerah Pondok Cabe, Tangerang Selatan. Berawal dari kumpulan remaja
+            ini yang suka mendengarkan dan menghadiri event - event musik dari
+            berbagai genre musik. maka dibuatkan website ini sebagai penyalur
+            kesukaan dari perkumpulan remaja ini agar dapat <i>sharing</i> ke
+            masyarakat atau anak muda lainnya.
+          </p>
+        </div>
+        <div id="gambar2" class="gambar2">
+          <img src="image/profile.jpeg" alt="foto rb" />
+        </div>
+      </div>
+      <!-- profile and history end -->
+      <!-- konten 1 start -->
+      
+    </main>
     <script src="script/index.js"></script>
   </body>
 </html>
