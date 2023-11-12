@@ -238,6 +238,76 @@ nav .navbar img {
 /* end konten 3 */
 /* end konten */
 
+/* start footer */
+/* start credit */
+.wrap-kaki {
+  background-color: rgb(41, 40, 40);
+  display: flex;
+  justify-content: first baseline;
+}
+.wrap-kaki .rb p {
+  font-family: "Kenia", sans-serif;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-size: 21px;
+  color: white;
+}
+.wrap-kaki .credit p {
+  font-family: "Kenia", sans-serif;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: white;
+}
+.wrap-kaki .design p {
+  font-family: "Kenia", sans-serif;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: white;
+}
+/* end credit */
+/* start sosmed */
+.wrap-kaki .wrap-sosmed {
+  padding-left: 800px;
+  padding-top: 10px;
+}
+.wrap-sosmed .ig {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: first baseline;
+}
+.wrap-sosmed .ig p a {
+  color: white;
+  font-size: 17px;
+  font-family: "Kenia", sans-serif;
+  padding-left: 10px;
+}
+.wrap-sosmed .email {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: first baseline;
+}
+.wrap-sosmed .email p {
+  color: white;
+  font-size: 17px;
+  font-family: "Kenia", sans-serif;
+  padding-left: 10px;
+}
+.wrap-sosmed .wa {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: first baseline;
+}
+.wrap-sosmed .wa p {
+  color: white;
+  font-size: 17px;
+  font-family: "Kenia", sans-serif;
+  padding-left: 10px;
+}
 /* responsive tablet and phone start */
 
 /* responsive tablet and phone end */
