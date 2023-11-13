@@ -24,7 +24,7 @@ nav {
   padding: 0 40px;
   height: 60px;
   font-family: "Kenia", sans-serif;
-  opacity: 0.8;
+  opacity: 0.7;
   position: fixed;
   top: 0;
   right: 0;
@@ -187,6 +187,18 @@ nav .navbar img {
 .wrap-konten .text-konten1 p a {
   color: black;
 }
+.wrap-konten .button1 button {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 5px 5px;
+}
+.wrap-konten .button1 button a {
+  font-size: 20px;
+  font-family: "Kenia", sans-serif;
+  color: black;
+}
 /* end konten 1 */
 /* start konten 2 */
 .wrap-konten #gambar-konten2 img {
@@ -211,6 +223,18 @@ nav .navbar img {
 .wrap-konten .text-konten2 p a {
   color: black;
 }
+.wrap-konten .button2 button {
+  margin-left: 140px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 5px 5px;
+}
+.wrap-konten .button2 button a {
+  font-size: 20px;
+  font-family: "Kenia", sans-serif;
+  color: black;
+}
 /* end konten 2 */
 /* start konten 3 */
 .wrap-konten #gambar-konten3 img {
@@ -223,7 +247,7 @@ nav .navbar img {
   margin-bottom: 15px;
 }
 .wrap-konten .text-konten3 p {
-  width: 60%;
+  width: 65%;
   text-indent: 10px;
   margin-left: 50px;
   padding-bottom: 15px;
@@ -235,6 +259,19 @@ nav .navbar img {
 .wrap-konten .text-konten3 p a {
   color: black;
 }
+.wrap-konten .button3 button {
+  margin-left: 140px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 5px 5px;
+}
+.wrap-konten .button3 button a {
+  font-size: 20px;
+  font-family: "Kenia", sans-serif;
+  color: black;
+}
+
 /* end konten 3 */
 /* end konten */
 
