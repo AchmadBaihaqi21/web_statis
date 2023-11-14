@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body {
+  background-image: url(image/concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  padding-top: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* navbar start */
+nav {
+  display: flex;
+  background-color: rgb(41, 40, 40);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+  font-family: "Kenia", sans-serif;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.soundrenaline li {
+  color: white;
+  font-size: 45px;
+  list-style: none;
+  margin-right: 30rem;
+}
+nav .navbar img {
+  width: 55px;
+  height: 54px;
+  border-radius: 60px;
+}
+/* navbar end */
+/* konten start */
+.wrap-konten {
+  background-color: rgb(75, 74, 74);
+  width: 50rem;
+  height: 52rem;
+  margin-top: 12px;
+  margin-left: 15rem;
+  margin-bottom: 1rem;
+  border: 2px solid rgb(2, 2, 2);
+  border-radius: 15px;
+  box-sizing: content-box;
+  opacity: 0.85;
+}
+.gambar-konten1 img {
+  margin-left: 8rem;
+  margin-top: 2rem;
+  width: 35rem;
+  height: 18rem;
+  border-radius: 15px;
+}
+.text-konten1 p {
+  width: 90%;
+  text-align: justify;
+  color: white;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  text-indent: 2rem;
+  font-size: 18px;
+  font-family: "Kenia", sans-serif;
+}

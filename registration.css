@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body {
+  background-image: url(image/concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  padding-top: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* navbar start */
+nav {
+  display: flex;
+  background-color: rgb(41, 40, 40);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+  font-family: "Kenia", sans-serif;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.Registration li {
+  color: white;
+  font-size: 45px;
+  list-style: none;
+  margin-right: 30rem;
+}
+nav .navbar img {
+  width: 55px;
+  height: 54px;
+  border-radius: 60px;
+}
+/* navbar end */
+/* konten start */
+.wrap-konten {
+  background-color: rgb(75, 74, 74);
+  width: 20rem;
+  height: 13rem;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  margin-bottom: 1rem;
+  border: 2px solid rgb(2, 2, 2);
+  box-sizing: content-box;
+}
+.username {
+  font-family: "Kenia", sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.password {
+  font-family: "Kenia", sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#pria {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+label {
+  font-family: "Kenia", sans-serif;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.button button {
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 5px 5px;
+}
+.button button p {
+  font-size: 20px;
+  font-family: "Kenia", sans-serif;
+  color: black;
+}
